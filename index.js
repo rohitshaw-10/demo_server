@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 4005;
 database.connect();
 
 // Update the CORS configuration to allow requests from your frontend domain
-const allowedOrigins = ["http://localhost:3000", "https://demo-server-ebon.vercel.app/"]; // Add your frontend domain here
+const allowedOrigins = "http://localhost:3000" // Add your frontend domain here
 app.use(
   cors({
     origin: function (origin, callback) {
