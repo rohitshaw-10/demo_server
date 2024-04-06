@@ -17,7 +17,7 @@ const {cloudinaryConnect} = require("./config/cloudinary");
 const fileUpload = require("express-fileupload"); 
 const { TokenExpiredError } = require("jsonwebtoken");
 
-const PORT = process.env.PORT||4000;
+const PORT = process.env.PORT||4005;
 database.connect();
 app.use(express.json());
 app.use(cookieParser());
