@@ -14,7 +14,7 @@ const database = require("./config/database")
 
 const cors = require("cors");
 const {cloudinaryConnect} = require("./config/cloudinary");
-const fileUpload = require("express-fileupload");
+const fileUpload = require("express-fileupload"); 
 const { TokenExpiredError } = require("jsonwebtoken");
 
 const PORT = process.env.PORT||4000;

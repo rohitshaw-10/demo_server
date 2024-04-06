@@ -75,7 +75,9 @@ exports.contactUsEmail = (
     <body>
         <div class="container">
             <a href="study-notion-frontend-wheat.vercel.app/"><img class="logo"
-                    src="https://i.ibb.co/7Xyj3PC/logo.png" alt="StudyNotion Logo"></a>
+            
+                    src="https://res.cloudinary.com/dezenww03/image/upload/v1711685269/CODEMINDS_IMG/h5k2pogbnvqmdvdv1wrh.png" alt="codeminds Logo"></a>
+                    //https://i.ibb.co/7Xyj3PC/logo.png
             <div class="message">Contact Form Confirmation</div>
             <div class="body">
                 <p>Dear ${firstname} ${lastname},</p>
@@ -89,7 +91,7 @@ exports.contactUsEmail = (
                 <p>We appreciate your interest and will get back to you shortly. </p>
             </div>
             <div class="support">If you have any further questions or need immediate assistance, please feel free to reach
-                out to us at <a href="mailto:info@studynotion.com">info@studynotion.com</a>. We are here to help!</div>
+                out to us at <a href="mailto:info@codeminds.com">info@codeminds.com</a>. We are here to help!</div>
         </div>
     </body>
     
